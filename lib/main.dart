@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/pages/home_page.dart';
+import 'package:quiz_app/pages/home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const QuizAPP());
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class QuizAPP extends StatefulWidget {
+  const QuizAPP({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<QuizAPP> createState() => _QuizAPPState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _QuizAPPState extends State<QuizAPP> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(

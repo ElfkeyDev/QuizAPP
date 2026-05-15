@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/data/questions.dart';
-import 'package:my_app/pages/score_page.dart';
-import 'package:my_app/widgets/answer_widget.dart';
-import 'package:my_app/widgets/question_widget.dart';
+import 'package:quiz_app/data/questions.dart';
+import 'package:quiz_app/pages/score_page.dart';
+import 'package:quiz_app/widgets/answer_widget.dart';
+import 'package:quiz_app/widgets/question_widget.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

@@ -1,5 +1,5 @@
-import 'package:my_app/models/answer_model.dart';
-import 'package:my_app/models/question_model.dart';
+import 'package:quiz_app/models/answer_model.dart';
+import 'package:quiz_app/models/question_model.dart';
 
 List<QuestionModel> questions = [
   QuestionModel(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/data/questions.dart';
+import 'package:quiz_app/data/questions.dart';
 
 class QuestionWidget extends StatelessWidget {
   final int qIndex;
